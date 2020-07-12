@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/7fd323a7c5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="process1.php">
     <title>Document</title>
 </head>
 <body>
@@ -109,22 +110,17 @@
     <!--contact form-->
     <section class="contact">
       <h1 id="contact">Connect</h1>
-      <form>
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" class="form-control" id="inputName" aria-describedby="contactform">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Phone Number</label>
-          <input type="tel" class="form-control" id="inputtel">
-        </div>
-        <div class="form-group">
-          <label for="shortMessage">If you'd like to tell me about your company, yourself, any relevant links, etc.</label>
-          <input type="textarea" class="form-control" id="inputMessage" placeholder="Message Here">
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/austintrent@icloud.com" method="post">
+        <fieldset id="fs-frm-inputs">
+          <label class="space" for="full-name">Full Name</label>
+          <input class="space" type="text" name="name" id="full-name" placeholder="First and Last" required="">
+          <label class="space" for="email-address">Email Address</label>
+          <input class="space" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+          <label class="space" for="message">Message</label>
+          <textarea class="space" rows="2" name="message" id="message" placeholder="Your Message Here" required=""></textarea>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        </fieldset>
+        <input type="submit" value="Submit">
       </form>
       <!--links to github & linkedIn-->
       <div class="social">
@@ -141,7 +137,7 @@
          <li>Website by Hooker</li>
      </ul>
     </footer>
-
+    <script> function myFunction() {document.getElementById("frm1").submit();}</script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
