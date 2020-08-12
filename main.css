@@ -2,7 +2,7 @@
 body {
     font-size: 67.5%;
     font-family: 'Times New Roman', Times, serif;
-    background: #336e40 url(assets/lightwood.jpg) no-repeat fixed top center;
+    background: #f6f7f6 url(assets/lightwood.jpg) no-repeat fixed top center;
     padding: 0;
     margin: 0;
     -webkit-background-size: 100% 100%;
@@ -35,7 +35,7 @@ a:hover {
     color: rgb(20, 114, 138);
 }
 #resume a:hover{
-    color: green;
+    color: rgb(2, 12, 2);
 }
 /*Header*/
 /*Nav Bars*/
