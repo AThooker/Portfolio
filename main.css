@@ -178,6 +178,7 @@ h6 {
     background-color: #fff;
     padding: 1.7em 0.5em 2.0em 1.7em;
     border-right: #B0C4DE solid 5px;
+    border-left: #B0C4DE solid 5px;
     margin-top: 20px;
     margin-left: 240px;
     font-size: 12px;
@@ -186,22 +187,41 @@ h6 {
        font-size: 30px;
        font-weight: bold;
    }
+   #skillsTitle{
+       margin-left: 43%;
+       margin-bottom: -20px;
+       font-size: 65px;
+       text-shadow: 2px 2px grey;
+       padding-top: 60px;
+   }
    .skillswrap{
-       margin-top: 100px;
+       margin-top: 40px;
        width: 760px;
-       height: 300px;
+       height: 270px;
        margin-left: 270px;
-       background-color: white ;
+       background-color: grey;
+       border: solid #B0C4DE 3px;
+       border-radius: 10%;
    }
    .skills ul li{
-       width: 150px;
-       display: inline-block;
-       list-style-type: none;
-       font-size: 20px;
+       display: inline;
+       list-style-type: square;
+       font-size: 17px;
        font-weight: bold;
        margin-left: 20px;
-       margin-top: 56px;
        color: black;
+   }
+   #tech {
+    text-decoration: underline;
+    margin-left: 8%;
+    padding-top: 30px;
+    font-size: 30px;
+   }
+   #soft {
+    text-decoration: underline;
+    margin-left: 8%;
+    padding-top: 10px;
+    font-size: 30px;
    }
    .contact{
        margin-top: 600px;
@@ -250,7 +270,7 @@ h6 {
   }
   
   input[type=submit]:hover {
-    background-color: #0f6d27;
+    background-color: #c75151;
   }
   
   form {
