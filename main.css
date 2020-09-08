@@ -45,6 +45,7 @@ a:hover {
     letter-spacing: 0.04em;
     padding: 1.0em;
     background-color: #B0C4DE;
+    border-radius: 3px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -97,6 +98,7 @@ h6 {
     margin-left: 40%;
     margin-bottom: 60px;
     text-shadow: 2px 2px grey;
+    padding-top: 60px;
 }
 .container{
     width: 1200px;
@@ -163,50 +165,74 @@ h6 {
     margin-top: 400px;
 }
 #about{
-    margin-left: 30%;
+    margin-left: 27%;
     font-size: 65px;
     text-shadow: 2px 2px grey;
+    padding-top: 60px;
 }
 /*ABOUT*/
 #description {
-    width: 600px;
-    float: left;
+    align-content: center;
+    width: 850px;
     position: relative;
     display: block;
     background-color: #fff;
     padding: 1.7em 0.5em 2.0em 1.7em;
     border-right: #B0C4DE solid 5px;
-    margin-top: 17px;
-    margin-left: 120px;
+    border-left: #B0C4DE solid 5px;
+    margin-top: 20px;
+    margin-left: 260px;
     font-size: 12px;
    }
    #description h1{
        font-size: 30px;
        font-weight: bold;
    }
-   .skillswrap{
-       margin-top: 120px;
+   #skillsTitle{
+       margin-left: 41%;
+       margin-bottom: -20px;
+       font-size: 65px;
+       text-shadow: 2px 2px grey;
+       padding-top: 60px;
    }
-   ul.skillswrap{
-       list-style-type: circle;
+   .skillswrap{
+       margin-top: 40px;
+       width: 760px;
+       height: 270px;
+       margin-left: 300px;
+       background-color: grey;
+       border: solid #B0C4DE 3px;
+       border-radius: 10%;
    }
    .skills ul li{
-       display: block;
-       font-size: 24px;
+       display: inline;
+       list-style-type: square;
+       font-size: 17px;
        font-weight: bold;
-       display: block;
-       margin-left: 800px;
-       margin-top: 25px;
+       margin-left: 20px;
        color: black;
    }
+   #tech {
+    text-decoration: underline;
+    margin-left: 8%;
+    padding-top: 30px;
+    font-size: 30px;
+   }
+   #soft {
+    text-decoration: underline;
+    margin-left: 8%;
+    padding-top: 10px;
+    font-size: 30px;
+   }
    .contact{
-       margin-top: 400px;
+       margin-top: 600px;
    }
    #contact{
     margin-left: 45%;
     margin-bottom: 60px;
     font-size: 65px;
     text-shadow: 2px 2px grey;
+    padding-top: 60px;
    }
 
    input[type=text] {
@@ -245,7 +271,7 @@ h6 {
   }
   
   input[type=submit]:hover {
-    background-color: #0f6d27;
+    background-color: #c75151;
   }
   
   form {
