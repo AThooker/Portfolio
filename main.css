@@ -76,9 +76,9 @@ a:hover {
 }
 #photo{
     border: 3px solid rgb(10, 0, 0);
-    border-radius: 80%;
+    border-radius: 40%;
     width: 250px;
-    margin-left: 850px;
+    margin-left: 800px;
     margin-top: -50px;
     height: 50%;
 }
