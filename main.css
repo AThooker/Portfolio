@@ -181,7 +181,7 @@ h6 {
     border-right: #B0C4DE solid 5px;
     border-left: #B0C4DE solid 5px;
     margin-top: 20px;
-    margin-left: 260px;
+    margin-left: 230px;
     font-size: 12px;
    }
    #description h1{
@@ -189,7 +189,7 @@ h6 {
        font-weight: bold;
    }
    #skillsTitle{
-       margin-left: 41%;
+       margin-left: 43%;
        margin-bottom: -20px;
        font-size: 65px;
        text-shadow: 2px 2px grey;
@@ -199,7 +199,7 @@ h6 {
        margin-top: 40px;
        width: 760px;
        height: 270px;
-       margin-left: 300px;
+       margin-left: 280px;
        background-color: grey;
        border: solid #B0C4DE 3px;
        border-radius: 10%;
@@ -228,7 +228,7 @@ h6 {
        margin-top: 600px;
    }
    #contact{
-    margin-left: 45%;
+    margin-left: 40%;
     margin-bottom: 60px;
     font-size: 65px;
     text-shadow: 2px 2px grey;
